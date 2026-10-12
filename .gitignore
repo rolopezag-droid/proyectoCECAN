@@ -1,0 +1,36 @@
+# Configuración privada
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# JavaScript / TypeScript
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Archivos locales
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# Datos locales de la demo
+*.sqlite
+*.sqlite3
